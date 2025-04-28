@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Cute Photo</title>
+    <style>
+        body {
+            background: url('https://t4.ftcdn.net/jpg/01/23/73/15/240_F_123731572_KMfBEkpbRlfQj1ypdPVwv4W0r27B9hVJ.jpg'); /* New light background */
+            background-size: cover; /* Cover the entire background */
+            color: #333333; /* Dark text color for contrast */
+            font-family: 'Arial', sans-serif;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            text-align: center;
+        }
+        h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 1.5em;
+            margin-bottom: 40px;
+        }
+        .photo-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 20px 0;
+        }
+        .photo {
+            max-width: 700px ; /* Allow original size */
+            max-height: 700px ; /* Allow original size */
+        }
+        .back-link {
+            background-color: #4caf50; /* Green link button */
+            color: #ffffff;
+            border: none;
+            padding: 15px 30px;
+            font-size: 1.2em;
+            cursor: pointer;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s;
+            display: inline-block;
+            margin: 10px;
+        }
+        .back-link:hover {
+            background-color: #66bb6a; /* Lighter green on hover */
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Your Cute Photo</h1>
+        <p>Here is a cute photo for you!</p>
+        <div class="photo-container">
+            <img src="C:\Users\user\Desktop\00\12\12.jpg" alt="Cute Photo" class="photo">
+        </div>
+        <a href="birthday_wish.html" class="back-link">Back to Birthday Wishes</a>
+    </div>
+</body>
+</html>
